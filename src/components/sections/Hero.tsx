@@ -1,10 +1,18 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import { TrendingDown, TrendingUp, ArrowRight, ChevronDown } from 'lucide-react';
+import Image from "next/image";
+import Link from "next/link";
+import {
+  TrendingDown,
+  TrendingUp,
+  ArrowRight,
+  ChevronDown,
+} from "lucide-react";
 
 const Hero = () => {
   return (
-    <section id="home" className="relative bg-gradient-to-br from-[#29587A] via-[#1e3f5a] to-[#0f2027] text-white overflow-hidden">
+    <section
+      id="home"
+      className="relative bg-gradient-to-br from-[#29587A] via-[#1e3f5a] to-[#0f2027] text-white overflow-hidden"
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
@@ -15,19 +23,25 @@ const Hero = () => {
                 Trusted by 500+ Small Businesses
               </div>
               <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight">
-                Shrink cost,<br/>
-                <span className="bg-gradient-to-r from-blue-200 to-cyan-200 bg-clip-text text-transparent">grow profit</span>
+                Shrink cost,
+                <br />
+                <span className="bg-gradient-to-r from-blue-200 to-cyan-200 bg-clip-text text-transparent">
+                  grow profit
+                </span>
               </h1>
               <p className="text-xl lg:text-2xl text-blue-100/90 leading-relaxed max-w-2xl">
-                We provide small businesses and sole proprietors with practical financial solutions that reduce expenses and strengthen profitability.
+                We provide small businesses and sole proprietors with practical
+                financial solutions that reduce expenses and strengthen
+                profitability.
               </p>
             </div>
-            
+
             <div className="space-y-6">
               <p className="text-lg text-blue-100/80 max-w-xl font-medium">
-                Every service is designed to help you stay compliant, efficient, and cost-effective.
+                Every service is designed to help you stay compliant, efficient,
+                and cost-effective.
               </p>
-              
+
               <div className="flex flex-col sm:flex-row gap-4 relative z-30">
                 <Link
                   href="#services"
@@ -49,12 +63,20 @@ const Hero = () => {
             {/* Key Stats */}
             <div className="grid grid-cols-2 gap-8 pt-8 border-t border-white/20">
               <div className="group">
-                <div className="text-4xl font-bold bg-gradient-to-r from-blue-200 to-cyan-200 bg-clip-text text-transparent group-hover:scale-110 transition-transform duration-300">13+</div>
-                <div className="text-blue-100/80 font-medium">Years Experience</div>
+                <div className="text-4xl font-bold bg-gradient-to-r from-blue-200 to-cyan-200 bg-clip-text text-transparent group-hover:scale-110 transition-transform duration-300">
+                  13+
+                </div>
+                <div className="text-blue-100/80 font-medium">
+                  Years Experience
+                </div>
               </div>
               <div className="group">
-                <div className="text-4xl font-bold bg-gradient-to-r from-blue-200 to-cyan-200 bg-clip-text text-transparent group-hover:scale-110 transition-transform duration-300">100%</div>
-                <div className="text-blue-100/80 font-medium">Certified Expertise</div>
+                <div className="text-4xl font-bold bg-gradient-to-r from-blue-200 to-cyan-200 bg-clip-text text-transparent group-hover:scale-110 transition-transform duration-300">
+                  100%
+                </div>
+                <div className="text-blue-100/80 font-medium">
+                  Certified Expertise
+                </div>
               </div>
             </div>
           </div>
@@ -71,7 +93,7 @@ const Hero = () => {
                 className="relative rounded-2xl shadow-2xl group-hover:shadow-3xl transition-all duration-500 border border-white/10"
               />
             </div>
-            
+
             {/* Floating cards */}
             <div className="absolute -top-6 -left-6 bg-white/95 backdrop-blur-sm text-[#29587A] p-6 rounded-2xl shadow-xl z-10 hover:scale-105 transition-transform duration-300 border border-white/20">
               <div className="flex items-center space-x-3">
@@ -79,19 +101,23 @@ const Hero = () => {
                   <TrendingDown className="w-6 h-6 text-red-600" />
                 </div>
                 <div>
-                  <div className="text-sm font-semibold text-gray-600">Cost Reduction</div>
+                  <div className="text-sm font-semibold text-gray-600">
+                    Cost Reduction
+                  </div>
                   <div className="text-lg font-bold">-35%</div>
                 </div>
               </div>
             </div>
-            
+
             <div className="absolute -bottom-6 -right-6 bg-white/95 backdrop-blur-sm text-[#29587A] p-6 rounded-2xl shadow-xl z-10 hover:scale-105 transition-transform duration-300 border border-white/20">
               <div className="flex items-center space-x-3">
                 <div className="p-2 bg-green-100 rounded-lg">
                   <TrendingUp className="w-6 h-6 text-green-600" />
                 </div>
                 <div>
-                  <div className="text-sm font-semibold text-gray-600">Profit Growth</div>
+                  <div className="text-sm font-semibold text-gray-600">
+                    Profit Growth
+                  </div>
                   <div className="text-lg font-bold">+42%</div>
                 </div>
               </div>
@@ -99,7 +125,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      
+
       {/* Background decoration */}
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent"></div>

@@ -1,25 +1,34 @@
-import Header from '@/components/layout/Header';
-import Footer from '@/components/layout/Footer';
-import ConsultationForm from '@/components/ConsultationForm';
-import { CheckCircle, Phone, Mail, User, Building, DollarSign } from 'lucide-react';
+import Header from "@/components/layout/Header";
+import Footer from "@/components/layout/Footer";
+import ConsultationForm from "@/components/ConsultationForm";
+import {
+  CheckCircle,
+  Phone,
+  Mail,
+  User,
+  Building,
+  DollarSign,
+} from "lucide-react";
 
 const ConsultationPage = () => {
-
-
   return (
     <div className="min-h-screen">
       <Header />
-      
+
       {/* Hero Section */}
       <section className="pt-32 pb-20 bg-gradient-to-br from-[#29587A] via-[#1e3f5a] to-[#0f2027]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
-              Get Your <span className="bg-gradient-to-r from-blue-200 to-cyan-200 bg-clip-text text-transparent">Free Consultation</span>
+              Get Your{" "}
+              <span className="bg-gradient-to-r from-blue-200 to-cyan-200 bg-clip-text text-transparent">
+                Free Consultation
+              </span>
             </h1>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto mb-8 leading-relaxed">
-              Discover how much your business could save with our expert financial solutions. 
-              Schedule a personalized 30-minute consultation with our specialists.
+              Discover how much your business could save with our expert
+              financial solutions. Schedule a personalized 30-minute
+              consultation with our specialists.
             </p>
             <div className="flex flex-wrap justify-center gap-8 text-blue-100">
               <div className="flex items-center space-x-2">
@@ -54,7 +63,9 @@ const ConsultationPage = () => {
                   What You&apos;ll Get From Your Consultation
                 </h2>
                 <p className="text-lg text-gray-600 leading-relaxed">
-                  Our expert consultants will analyze your current financial situation and provide actionable insights to help your business save money and improve profitability.
+                  Our expert consultants will analyze your current financial
+                  situation and provide actionable insights to help your
+                  business save money and improve profitability.
                 </p>
               </div>
 
@@ -64,8 +75,13 @@ const ConsultationPage = () => {
                     <DollarSign className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold text-gray-900 mb-2">Cost Savings Analysis</h3>
-                    <p className="text-gray-600">Identify immediate opportunities to reduce expenses and improve cash flow in your business operations.</p>
+                    <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                      Cost Savings Analysis
+                    </h3>
+                    <p className="text-gray-600">
+                      Identify immediate opportunities to reduce expenses and
+                      improve cash flow in your business operations.
+                    </p>
                   </div>
                 </div>
 
@@ -74,8 +90,13 @@ const ConsultationPage = () => {
                     <Building className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold text-gray-900 mb-2">Business Structure Review</h3>
-                    <p className="text-gray-600">Evaluate your current business structure and identify tax-efficient improvements and optimizations.</p>
+                    <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                      Business Structure Review
+                    </h3>
+                    <p className="text-gray-600">
+                      Evaluate your current business structure and identify
+                      tax-efficient improvements and optimizations.
+                    </p>
                   </div>
                 </div>
 
@@ -84,8 +105,13 @@ const ConsultationPage = () => {
                     <User className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold text-gray-900 mb-2">Personalized Action Plan</h3>
-                    <p className="text-gray-600">Receive a customized roadmap with specific steps to implement cost-saving strategies in your business.</p>
+                    <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                      Personalized Action Plan
+                    </h3>
+                    <p className="text-gray-600">
+                      Receive a customized roadmap with specific steps to
+                      implement cost-saving strategies in your business.
+                    </p>
                   </div>
                 </div>
 
@@ -94,23 +120,37 @@ const ConsultationPage = () => {
                     <CheckCircle className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold text-gray-900 mb-2">Service Recommendations</h3>
-                    <p className="text-gray-600">Get expert recommendations on which of our services would benefit your business most.</p>
+                    <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                      Service Recommendations
+                    </h3>
+                    <p className="text-gray-600">
+                      Get expert recommendations on which of our services would
+                      benefit your business most.
+                    </p>
                   </div>
                 </div>
               </div>
 
               {/* Contact Info */}
               <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100">
-                <h3 className="text-xl font-bold text-gray-900 mb-6">Prefer to Talk Now?</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-6">
+                  Prefer to Talk Now?
+                </h3>
                 <div className="space-y-4">
                   <div className="flex items-center space-x-4">
                     <div className="w-10 h-10 bg-[#29587A] rounded-xl flex items-center justify-center">
                       <Phone className="w-5 h-5 text-white" />
                     </div>
                     <div>
-                      <p className="font-semibold text-gray-900">Call us directly</p>
-                      <a href="tel:+15551234567" className="text-[#29587A] hover:text-[#1e3f5a] font-medium">+1 (555) 123-4567</a>
+                      <p className="font-semibold text-gray-900">
+                        Call us directly
+                      </p>
+                      <a
+                        href="tel:+14166168348"
+                        className="text-[#29587A] hover:text-[#1e3f5a] font-medium"
+                      >
+                        +1 (416) 616-8348
+                      </a>
                     </div>
                   </div>
                   <div className="flex items-center space-x-4">
@@ -118,8 +158,15 @@ const ConsultationPage = () => {
                       <Mail className="w-5 h-5 text-white" />
                     </div>
                     <div>
-                      <p className="font-semibold text-gray-900">Send us an email</p>
-                      <a href="mailto:info@costshrink.com" className="text-[#29587A] hover:text-[#1e3f5a] font-medium">info@costshrink.com</a>
+                      <p className="font-semibold text-gray-900">
+                        Send us an email
+                      </p>
+                      <a
+                        href="mailto:info@costshrink.ca"
+                        className="text-[#29587A] hover:text-[#1e3f5a] font-medium"
+                      >
+                        info@costshrink.ca
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -143,8 +190,10 @@ export default ConsultationPage;
 
 export function generateMetadata() {
   return {
-    title: 'Free Consultation - Cost Shrink Inc',
-    description: 'Schedule a free 30-minute consultation with our financial experts. Discover how much your business could save with our cost reduction strategies.',
-    keywords: 'free consultation, cost reduction, financial consulting, business savings, cost shrink inc',
+    title: "Free Consultation - Cost Shrink Inc",
+    description:
+      "Schedule a free 30-minute consultation with our financial experts. Discover how much your business could save with our cost reduction strategies.",
+    keywords:
+      "free consultation, cost reduction, financial consulting, business savings, cost shrink inc",
   };
 }
