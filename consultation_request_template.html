@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Consultation Request - {{company_name}}</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #e74c3c;
+        }
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            color: #e74c3c;
+            margin-bottom: 10px;
+        }
+        .title {
+            font-size: 24px;
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+        .content {
+            margin-bottom: 30px;
+        }
+        .client-info {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 4px solid #e74c3c;
+        }
+        .info-row {
+            margin-bottom: 15px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .info-label {
+            font-weight: bold;
+            color: #2c3e50;
+            min-width: 120px;
+            margin-right: 10px;
+        }
+        .info-value {
+            color: #555;
+            flex: 1;
+        }
+        .message-section {
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .message-label {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        .message-content {
+            color: #555;
+            line-height: 1.8;
+            white-space: pre-wrap;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            color: #666;
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            .container {
+                padding: 20px;
+            }
+            .info-row {
+                flex-direction: column;
+            }
+            .info-label {
+                min-width: auto;
+                margin-bottom: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">{{company_name}}</div>
+            <div class="title">New Consultation Request</div>
+        </div>
+        
+        <div class="content">
+            <p>Hello Team,</p>
+            
+            <p>You have received a new consultation request through your website. Please find the client details below:</p>
+            
+            <div class="client-info">
+                <h3 style="margin-top: 0; color: #2c3e50;">Client Information</h3>
+                
+                <div class="info-row">
+                    <div class="info-label">Full Name:</div>
+                    <div class="info-value">{{client_name}}</div>
+                </div>
+                
+                <div class="info-row">
+                    <div class="info-label">Email Address:</div>
+                    <div class="info-value">{{client_email}}</div>
+                </div>
+                
+                <div class="info-row">
+                    <div class="info-label">Phone Number:</div>
+                    <div class="info-value">{{client_phone}}</div>
+                </div>
+                
+                <div class="info-row">
+                    <div class="info-label">Service Interest:</div>
+                    <div class="info-value">{{client_service}}</div>
+                </div>
+            </div>
+            
+            <div class="message-section">
+                <div class="message-label">Client Message:</div>
+                <div class="message-content">{{client_message}}</div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p><strong>{{company_name}}</strong></p>
+            <p>This is an automated notification from your website contact form.</p>
+            <p>For technical support, contact: <a href="mailto:{{support_email}}">{{support_email}}</a></p>
+            <p>Visit our website: <a href="{{website_url}}">{{website_url}}</a></p>
+        </div>
+    </div>
+</body>
+</html>
