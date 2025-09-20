@@ -70,60 +70,59 @@ const ConsultationPage = () => {
               </div>
 
               <div className="space-y-6">
-                <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-gradient-to-r from-[#29587A] to-[#1e3f5a] rounded-xl flex items-center justify-center">
-                    <DollarSign className="w-6 h-6 text-white" />
+                <div className="flex items-start space-x-3 sm:space-x-4">
+                  <div className="w-12 h-12 sm:w-14 sm:h-14 bg-gradient-to-r from-[#29587A] to-[#1e3f5a] rounded-xl flex items-center justify-center flex-shrink-0">
+                    <DollarSign className="w-6 h-6 sm:w-7 sm:h-7 text-white" />
                   </div>
-                  <div>
-                    <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                  <div className="flex-1 min-w-0">
+                    <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-2">
                       Cost Savings Analysis
                     </h3>
-                    <p className="text-gray-600">
+                    <p className="text-sm sm:text-base text-gray-600">
                       Identify immediate opportunities to reduce expenses and
                       improve cash flow in your business operations.
                     </p>
                   </div>
                 </div>
 
-                <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-gradient-to-r from-[#29587A] to-[#1e3f5a] rounded-xl flex items-center justify-center">
-                    <Building className="w-6 h-6 text-white" />
+                <div className="flex items-start space-x-3 sm:space-x-4">
+                  <div className="w-12 h-12 sm:w-14 sm:h-14 bg-gradient-to-r from-[#29587A] to-[#1e3f5a] rounded-xl flex items-center justify-center flex-shrink-0">
+                    <Building className="w-6 h-6 sm:w-7 sm:h-7 text-white" />
                   </div>
-                  <div>
-                    <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                  <div className="flex-1 min-w-0">
+                    <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-2">
                       Business Structure Review
                     </h3>
-                    <p className="text-gray-600">
+                    <p className="text-sm sm:text-base text-gray-600">
                       Evaluate your current business structure and identify
                       tax-efficient improvements and optimizations.
                     </p>
                   </div>
                 </div>
 
-                <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-gradient-to-r from-[#29587A] to-[#1e3f5a] rounded-xl flex items-center justify-center">
-                    <User className="w-6 h-6 text-white" />
+                <div className="flex items-start space-x-3 sm:space-x-4">
+                  <div className="w-12 h-12 sm:w-14 sm:h-14 bg-gradient-to-r from-[#29587A] to-[#1e3f5a] rounded-xl flex items-center justify-center flex-shrink-0">
+                    <User className="w-6 h-6 sm:w-7 sm:h-7 text-white" />
                   </div>
-                  <div>
-                    <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                  <div className="flex-1 min-w-0">
+                    <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-2">
                       Personalized Action Plan
                     </h3>
-                    <p className="text-gray-600">
+                    <p className="text-sm sm:text-base text-gray-600">
                       Receive a customized roadmap with specific steps to
                       implement cost-saving strategies in your business.
                     </p>
                   </div>
                 </div>
 
-                <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-gradient-to-r from-[#29587A] to-[#1e3f5a] rounded-xl flex items-center justify-center">
-                    <CheckCircle className="w-6 h-6 text-white" />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                <div className="flex items-start space-x-3 sm:space-x-4">
+                  <div className="w-12 h-12 sm:w-14 sm:h-14 bg-gradient-to-r from-[#29587A] to-[#1e3f5a] rounded-xl flex items-center justify-center flex-shrink-0">
+                    <CheckCircle className="w-6 h-6 sm:w-7 sm:h-7 text-white" /></div>
+                  <div className="flex-1 min-w-0">
+                    <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-2">
                       Service Recommendations
                     </h3>
-                    <p className="text-gray-600">
+                    <p className="text-sm sm:text-base text-gray-600">
                       Get expert recommendations on which of our services would
                       benefit your business most.
                     </p>
@@ -132,38 +131,38 @@ const ConsultationPage = () => {
               </div>
 
               {/* Contact Info */}
-              <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100">
-                <h3 className="text-xl font-bold text-gray-900 mb-6">
+              <div className="bg-white rounded-2xl p-6 sm:p-8 shadow-lg border border-gray-100">
+                <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-6">
                   Prefer to Talk Now?
                 </h3>
                 <div className="space-y-4">
-                  <div className="flex items-center space-x-4">
-                    <div className="w-10 h-10 bg-[#29587A] rounded-xl flex items-center justify-center">
-                      <Phone className="w-5 h-5 text-white" />
+                  <div className="flex items-center space-x-3 sm:space-x-4">
+                    <div className="w-10 h-10 sm:w-12 sm:h-12 bg-[#29587A] rounded-xl flex items-center justify-center flex-shrink-0">
+                      <Phone className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
                     </div>
-                    <div>
-                      <p className="font-semibold text-gray-900">
+                    <div className="flex-1 min-w-0">
+                      <p className="font-semibold text-gray-900 text-sm sm:text-base">
                         Call us directly
                       </p>
                       <a
                         href="tel:+14166168348"
-                        className="text-[#29587A] hover:text-[#1e3f5a] font-medium"
+                        className="text-[#29587A] hover:text-[#1e3f5a] font-medium text-sm sm:text-base"
                       >
                         +1 (416) 616-8348
                       </a>
                     </div>
                   </div>
-                  <div className="flex items-center space-x-4">
-                    <div className="w-10 h-10 bg-[#29587A] rounded-xl flex items-center justify-center">
-                      <Mail className="w-5 h-5 text-white" />
+                  <div className="flex items-center space-x-3 sm:space-x-4">
+                    <div className="w-10 h-10 sm:w-12 sm:h-12 bg-[#29587A] rounded-xl flex items-center justify-center flex-shrink-0">
+                      <Mail className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
                     </div>
-                    <div>
-                      <p className="font-semibold text-gray-900">
+                    <div className="flex-1 min-w-0">
+                      <p className="font-semibold text-gray-900 text-sm sm:text-base">
                         Send us an email
                       </p>
                       <a
                         href="mailto:info@costshrink.ca"
-                        className="text-[#29587A] hover:text-[#1e3f5a] font-medium"
+                        className="text-[#29587A] hover:text-[#1e3f5a] font-medium text-sm sm:text-base break-all"
                       >
                         info@costshrink.ca
                       </a>
