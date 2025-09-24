@@ -215,5 +215,3 @@ For technical support or business inquiries:
 This project is proprietary software owned by Cost Shrink Inc. All rights reserved.
 
 ---
-
-Built with ❤️ by the Cost Shrink Inc development team.
