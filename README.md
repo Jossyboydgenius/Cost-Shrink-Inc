@@ -74,7 +74,7 @@ ZEPTOMAIL_FROM_EMAIL=your_verified_email@domain.com
 ZEPTOMAIL_FROM_NAME=Cost Shrink Inc
 
 # Contact Information
-CONTACT_EMAIL=info@costshrink.ca
+CONTACT_EMAIL=info@costshrink.com
 CONTACT_PHONE=+1 (416) 616-8348
 ```
 
@@ -207,7 +207,7 @@ CONTACT_PHONE=your_phone_number
 ## 📞 Support
 
 For technical support or business inquiries:
-- **Email**: info@costshrink.ca
+- **Email**: info@costshrink.com
 - **Phone**: +1 (416) 616-8348
 - **Website**: [costshrink.ca](https://costshrink.ca)
 
