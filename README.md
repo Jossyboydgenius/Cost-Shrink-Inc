@@ -1,5 +1,4 @@
 # Cost Shrink Inc
-
 A modern, responsive business consulting website built with Next.js 15, TypeScript, and Tailwind CSS. Cost Shrink Inc specializes in helping businesses reduce operational costs and improve profitability through expert analysis and strategic recommendations.
 
 ## 🚀 Features
@@ -216,5 +215,3 @@ For technical support or business inquiries:
 This project is proprietary software owned by Cost Shrink Inc. All rights reserved.
 
 ---
-
-Built with ❤️ by the Cost Shrink Inc development team.
