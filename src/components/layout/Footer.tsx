@@ -60,7 +60,7 @@ const Footer = () => {
                     <Mail className="w-5 h-5 text-white" />
                   </div>
                   <span className="text-white font-semibold">
-                    info@costshrink.com
+                    info@costshrinkinc.com
                   </span>
                 </div>
 

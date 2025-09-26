@@ -131,7 +131,7 @@ const Contact = () => {
                 <div>
                   <h4 className="text-xl font-bold text-gray-900">Email</h4>
                   <p className="text-lg text-gray-800 font-semibold">
-                    info@costshrink.com
+                    info@costshrinkinc.com
                   </p>
                   <p className="text-sm text-gray-500 font-medium">
                     We&apos;ll respond within 24 hours

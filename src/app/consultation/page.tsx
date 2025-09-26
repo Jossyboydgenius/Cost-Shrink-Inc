@@ -161,10 +161,10 @@ const ConsultationPage = () => {
                         Send us an email
                       </p>
                       <a
-                        href="mailto:info@costshrink.com"
+                        href="mailto:info@costshrinkinc.com"
                         className="text-[#29587A] hover:text-[#1e3f5a] font-medium text-sm sm:text-base break-all"
                       >
-                        info@costshrink.com
+                        info@costshrinkinc.com
                       </a>
                     </div>
                   </div>
